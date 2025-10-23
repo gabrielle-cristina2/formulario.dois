@@ -1,0 +1,104 @@
+ {
+    margin:0;
+    padding:0;
+    box-sizing:0;
+    font-family: "Embed code",sans-serif;
+}
+
+:root{
+    font-size: 62.5;
+
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #B62651;
+    color: white;
+    padding-inline: 2rem;
+}
+
+#page {
+    max-width: 120rem;
+    margin-inline: auto;
+
+
+}
+
+header{
+    padding-block: 2rem;
+    text-align: center;
+}
+
+fieldset{
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    
+    label{
+        display: block;
+        margin-bottom: .5rem;
+    }
+    div{
+        margin-bottom: 1rem;
+    }
+
+    input{
+        padding: 1rem;
+        border-radius: 1rem;
+        border: none;
+        color:#A39595;
+        
+
+    }
+    input:focus,
+    input:hover {
+        outline: 2px solid#F16D83;
+    }
+
+    input::placeholder{
+        color:#E84961;
+
+
+    }
+    input[type=file]{
+        color: white;
+    }
+
+    input[type=checkbox],
+    input[type=radio]{
+        outline: none;
+    }
+    input + label {
+        display: inline;
+    }
+    h2{
+
+        margin-block: 1rem;
+    }
+
+    select,
+    textarea{
+        padding: 1rem;
+        border-radius: 1rem;
+        resize: none;
+
+
+    }
+}
+button{
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    background:#F12344;
+    border: none;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+button:hover{
+  background-color: #B9ACAC;
+  cursor: pointer;
+  transition: ease-in-out .4s;
+}
